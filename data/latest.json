@@ -1,0 +1,82 @@
+{
+  "date": "2026-06-29",
+  "title": "GitHub 每日熱門精選 - 2026-06-29",
+  "repo_count": 5,
+  "repos": [
+    {
+      "name": "Easy-Class",
+      "full_name": "mego1123/Easy-Class",
+      "url": "https://github.com/mego1123/Easy-Class",
+      "description": null,
+      "stars": 8,
+      "language": "Go",
+      "topics": [],
+      "categories": [
+        "CLI"
+      ],
+      "homepage": null,
+      "summary": ""
+    },
+    {
+      "name": "pagewright",
+      "full_name": "KeepIntouch2024/pagewright",
+      "url": "https://github.com/KeepIntouch2024/pagewright",
+      "description": "LLM-orchestrated e-commerce detail-page generator · 电商详情页生成",
+      "stars": 7,
+      "language": "Python",
+      "topics": [],
+      "categories": [],
+      "homepage": null,
+      "summary": "LLM-orchestrated e-commerce detail-page generator · 电商详情页生成"
+    },
+    {
+      "name": "DouyuLive-Danmu-Merge",
+      "full_name": "QiuranQAQ/DouyuLive-Danmu-Merge",
+      "url": "https://github.com/QiuranQAQ/DouyuLive-Danmu-Merge",
+      "description": "斗鱼弹幕合并",
+      "stars": 7,
+      "language": "JavaScript",
+      "topics": [],
+      "categories": [],
+      "homepage": null,
+      "summary": "斗鱼弹幕合并"
+    },
+    {
+      "name": "glass-ui-react",
+      "full_name": "sam70361/glass-ui-react",
+      "url": "https://github.com/sam70361/glass-ui-react",
+      "description": "Dark glass-effect React admin dashboard template. 5 color themes · 40+ components · 30+ real-world scenarios · PWA ready.",
+      "stars": 7,
+      "language": "TypeScript",
+      "topics": [
+        "admin-template",
+        "dark-ui",
+        "dashboard",
+        "design-system",
+        "glassmorphism",
+        "react",
+        "tailwindcss",
+        "vite"
+      ],
+      "categories": [
+        "AI / LLM",
+        "Web",
+        "Mobile"
+      ],
+      "homepage": "https://glass-ui-react.vercel.app",
+      "summary": "Dark glass-effect React admin dashboard template. 5 color themes · 40+ components · 30+ real-world scenarios · PWA ready."
+    },
+    {
+      "name": "CryptoHub-Ghana",
+      "full_name": "kelvinagyareyeboah/CryptoHub-Ghana",
+      "url": "https://github.com/kelvinagyareyeboah/CryptoHub-Ghana",
+      "description": "A decentralized cryptocurrency tracking dApp built to keep you updated on crypto prices in real-time, straight from Ghana! 🇬🇭",
+      "stars": 6,
+      "language": "Solidity",
+      "topics": [],
+      "categories": [],
+      "homepage": null,
+      "summary": "A decentralized cryptocurrency tracking dApp built to keep you updated on crypto prices in real-time, straight from Ghana! 🇬🇭"
+    }
+  ]
+}
