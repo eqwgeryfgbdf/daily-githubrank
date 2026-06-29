@@ -1,350 +1,171 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daily Trending Picks - 2026-06-28</title>
-    <style>
-        :root {
-            --primary-color: #2563eb;
-            --bg-color: #f8fafc;
-            --card-bg: #ffffff;
-            --text-main: #1e293b;
-            --text-muted: #64748b;
-            --border-color: #e2e8f0;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-main);
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 2rem 1rem;
-        }
-
-        header {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-            color: var(--text-main);
-        }
-
-        .date {
-            color: var(--text-muted);
-            font-size: 1.1rem;
-        }
-
-        .repo-card {
-            background: var(--card-bg);
-            border-radius: 12px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-            padding: 1.5rem;
-            margin-bottom: 2rem;
-            border: 1px solid var(--border-color);
-            transition: transform 0.2s ease;
-        }
-
-        .repo-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-        }
-
-        .repo-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 1rem;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-        }
-
-        .repo-title {
-            font-size: 1.5rem;
-            font-weight: 700;
-            margin: 0;
-        }
-
-        .repo-title a {
-            color: var(--text-main);
-            text-decoration: none;
-        }
-
-        .repo-title a:hover {
-            color: var(--primary-color);
-        }
-
-        .stars {
-            background-color: #fef3c7;
-            color: #d97706;
-            padding: 0.25rem 0.75rem;
-            border-radius: 9999px;
-            font-weight: 600;
-            font-size: 0.9rem;
-            display: inline-flex;
-            align-items: center;
-            gap: 0.25rem;
-        }
-
-        .meta {
-            display: flex;
-            gap: 1rem;
-            margin-bottom: 1rem;
-            font-size: 0.9rem;
-            color: var(--text-muted);
-            flex-wrap: wrap;
-        }
-
-        .language {
-            display: inline-flex;
-            align-items: center;
-        }
-
-        .language::before {
-            content: "";
-            display: inline-block;
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            background-color: var(--primary-color);
-            margin-right: 6px;
-        }
-
-        .topics {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-            margin-bottom: 1rem;
-        }
-
-        .topic-badge {
-            background-color: #e0f2fe;
-            color: #0369a1;
-            font-size: 0.75rem;
-            padding: 0.2rem 0.6rem;
-            border-radius: 9999px;
-        }
-
-        .description {
-            font-size: 1.1rem;
-            margin-bottom: 1rem;
-            color: var(--text-main);
-        }
-
-        .summary {
-            background-color: #f8fafc;
-            border-left: 4px solid var(--primary-color);
-            padding: 1rem;
-            margin-top: 1rem;
-            font-size: 0.95rem;
-            color: #334155;
-        }
-        
-        /* Markdown generated content styles */
-        .summary h3 { margin-top: 0; font-size: 1.1rem; }
-        .summary ul { padding-left: 1.2rem; }
-        .summary p { margin-bottom: 0.5rem; }
-
-        .links {
-            margin-top: 1.5rem;
-            display: flex;
-            gap: 1rem;
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 0.5rem 1rem;
-            border-radius: 6px;
-            text-decoration: none;
-            font-weight: 500;
-            font-size: 0.9rem;
-            transition: background-color 0.2s;
-        }
-
-        .btn-primary {
-            background-color: var(--primary-color);
-            color: white;
-        }
-
-        .btn-primary:hover {
-            background-color: #1d4ed8;
-        }
-
-        .btn-outline {
-            border: 1px solid var(--border-color);
-            color: var(--text-main);
-            background-color: white;
-        }
-
-        .btn-outline:hover {
-            background-color: #f1f5f9;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 4rem;
-            padding-top: 2rem;
-            border-top: 1px solid var(--border-color);
-            color: var(--text-muted);
-            font-size: 0.9rem;
-        }
-
-        footer a {
-            color: var(--text-muted);
-            text-decoration: underline;
-        }
-    </style>
-</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitHub 每日熱門精選 - 2026-06-29</title>
+<meta name="description" content="每日精選 GitHub 新創建熱門專案，由 AI 生成繁體中文介紹。">
+<meta property="og:title" content="GitHub 每日熱門精選 - 2026-06-29">
+<meta property="og:description" content="每日精選 GitHub 新創建熱門專案，由 AI 生成繁體中文介紹。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://daily-githubrank.pages.dev/index.html"><link rel="stylesheet" href="assets/style.css"></head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Daily Trending Picks</h1>
-            <div class="date">2026-06-28 (Asia/Taipei)</div>
-            <p>Today's fastest-growing projects on GitHub, powered by AI.</p>
-        </header>
+  <div class="container">
+    <header class="site-header">
+      <section class="hero">
+        <h1>GitHub 每日熱門精選</h1>
+        <p class="subtitle">每日精選 GitHub 新創建熱門專案，由 AI 生成繁體中文介紹。</p>
+        <div class="date-badge">2026-06-29 · Asia/Taipei</div>
+        <nav class="nav-bar">
+          <a class="nav-link" href="daily/2026/06/2026-06-29.html">今日完整文章</a>
+          <a class="nav-link" href="archive.html">歷史文章</a>
+          <a class="nav-link" href="https://github.com/eqwgeryfgbdf/daily-githubrank" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+        </nav>
+      </section>
+    </header>
 
-        <main>
-            <article class="repo-card">
-                <div class="repo-header">
-                    <h2 class="repo-title">
-                        <a href="https://github.com/haskaomni/sankey-flow" target="_blank">sankey-flow</a>
-                    </h2>
-                    <span class="stars">⭐ 8</span>
-                </div>
-
-                <div class="meta">
-                    <span class="language">JavaScript</span>
-                </div>
-
-
-                <div class="description">
-                    A self-contained <sankey-flow> custom element powered by Mermaid Sankey layouts and rich overlay labels.
-                </div>
-
-                <div class="summary">
-                    <p>A self-contained <sankey-flow> custom element powered by Mermaid Sankey layouts and rich overlay labels.</p>
-                </div>
-
-                <div class="links">
-                    <a href="https://github.com/haskaomni/sankey-flow" target="_blank" class="btn btn-primary">View on GitHub</a>
-                </div>
-            </article>
-            <article class="repo-card">
-                <div class="repo-header">
-                    <h2 class="repo-title">
-                        <a href="https://github.com/kelvinagyareyeboah/NFTMarket-GH" target="_blank">NFTMarket-GH</a>
-                    </h2>
-                    <span class="stars">⭐ 7</span>
-                </div>
-
-                <div class="meta">
-                    <span class="language">Solidity</span>
-                </div>
-
-
-                <div class="description">
-                    A vibrant NFT minting and trading platform tailored for Ghanaian artists, powered by blockchain! 🇬🇭
-                </div>
-
-                <div class="summary">
-                    <p>A vibrant NFT minting and trading platform tailored for Ghanaian artists, powered by blockchain! 🇬🇭</p>
-                </div>
-
-                <div class="links">
-                    <a href="https://github.com/kelvinagyareyeboah/NFTMarket-GH" target="_blank" class="btn btn-primary">View on GitHub</a>
-                </div>
-            </article>
-            <article class="repo-card">
-                <div class="repo-header">
-                    <h2 class="repo-title">
-                        <a href="https://github.com/GanymedeNil/poxiaoxing-skills" target="_blank">poxiaoxing-skills</a>
-                    </h2>
-                    <span class="stars">⭐ 4</span>
-                </div>
-
-                <div class="meta">
-                    <span class="language">Python</span>
-                </div>
-
-
-                <div class="description">
-                    None
-                </div>
-
-                <div class="summary">
-                    
-                </div>
-
-                <div class="links">
-                    <a href="https://github.com/GanymedeNil/poxiaoxing-skills" target="_blank" class="btn btn-primary">View on GitHub</a>
-                </div>
-            </article>
-            <article class="repo-card">
-                <div class="repo-header">
-                    <h2 class="repo-title">
-                        <a href="https://github.com/sudoHG/codex-reset-credits-skill" target="_blank">codex-reset-credits-skill</a>
-                    </h2>
-                    <span class="stars">⭐ 3</span>
-                </div>
-
-                <div class="meta">
-                    <span class="language">Python</span>
-                </div>
-
-
-                <div class="description">
-                    Codex Skill and runbook for querying banked Codex reset credits.
-                </div>
-
-                <div class="summary">
-                    <p>Codex Skill and runbook for querying banked Codex reset credits.</p>
-                </div>
-
-                <div class="links">
-                    <a href="https://github.com/sudoHG/codex-reset-credits-skill" target="_blank" class="btn btn-primary">View on GitHub</a>
-                </div>
-            </article>
-            <article class="repo-card">
-                <div class="repo-header">
-                    <h2 class="repo-title">
-                        <a href="https://github.com/linux-ur/XMRigProxy-Panel" target="_blank">XMRigProxy-Panel</a>
-                    </h2>
-                    <span class="stars">⭐ 3</span>
-                </div>
-
-                <div class="meta">
-                    <span class="language">JavaScript</span>
-                </div>
-
-
-                <div class="description">
-                    A complete XMRig Proxy Dashboard
-                </div>
-
-                <div class="summary">
-                    <p>A complete XMRig Proxy Dashboard</p>
-                </div>
-
-                <div class="links">
-                    <a href="https://github.com/linux-ur/XMRigProxy-Panel" target="_blank" class="btn btn-primary">View on GitHub</a>
-                </div>
-            </article>
-        </main>
-
-        <footer>
-            <p>Generated automatically by <a href="https://github.com/eqwgeryfgbdf/daily-githubrank">Daily Tasks</a></p>
-            <p><a href="https://github.com/eqwgeryfgbdf/daily-githubrank/tree/main/daily">View Archives</a></p>
-        </footer>
+    <div class="category-strip" aria-label="今日分類">
+      <span class="category-badge">CLI</span>
+      <span class="category-badge">AI / LLM</span>
+      <span class="category-badge">Web</span>
+      <span class="category-badge">Mobile</span>
     </div>
+
+    <main>
+      <h2 class="section-title">今日熱門 Top 5</h2>
+
+      <div class="repo-list">
+<article class="repo-card">
+  <div class="repo-card-header">
+    <h2 class="repo-title">
+<span class="rank-badge">#1</span>      <a href="https://github.com/mego1123/Easy-Class" target="_blank" rel="noopener noreferrer">Easy-Class</a>
+    </h2>
+    <span class="stars">⭐ 8</span>
+  </div>
+
+  <div class="meta-row">
+    <span class="language-dot">Go</span>
+    <span>mego1123/Easy-Class</span>
+  </div>
+
+  <div class="badge-row">
+    <span class="category-badge">CLI</span>
+  </div>
+
+
+
+
+  <div class="card-actions">
+    <a href="https://github.com/mego1123/Easy-Class" target="_blank" rel="noopener noreferrer" class="btn btn-primary">GitHub</a>
+  </div>
+</article><article class="repo-card">
+  <div class="repo-card-header">
+    <h2 class="repo-title">
+<span class="rank-badge">#2</span>      <a href="https://github.com/KeepIntouch2024/pagewright" target="_blank" rel="noopener noreferrer">pagewright</a>
+    </h2>
+    <span class="stars">⭐ 7</span>
+  </div>
+
+  <div class="meta-row">
+    <span class="language-dot">Python</span>
+    <span>KeepIntouch2024/pagewright</span>
+  </div>
+
+
+
+  <p class="description">LLM-orchestrated e-commerce detail-page generator · 电商详情页生成</p>
+
+  <div class="summary"><p>LLM-orchestrated e-commerce detail-page generator · 电商详情页生成</p></div>
+
+  <div class="card-actions">
+    <a href="https://github.com/KeepIntouch2024/pagewright" target="_blank" rel="noopener noreferrer" class="btn btn-primary">GitHub</a>
+  </div>
+</article><article class="repo-card">
+  <div class="repo-card-header">
+    <h2 class="repo-title">
+<span class="rank-badge">#3</span>      <a href="https://github.com/QiuranQAQ/DouyuLive-Danmu-Merge" target="_blank" rel="noopener noreferrer">DouyuLive-Danmu-Merge</a>
+    </h2>
+    <span class="stars">⭐ 7</span>
+  </div>
+
+  <div class="meta-row">
+    <span class="language-dot">JavaScript</span>
+    <span>QiuranQAQ/DouyuLive-Danmu-Merge</span>
+  </div>
+
+
+
+  <p class="description">斗鱼弹幕合并</p>
+
+  <div class="summary"><p>斗鱼弹幕合并</p></div>
+
+  <div class="card-actions">
+    <a href="https://github.com/QiuranQAQ/DouyuLive-Danmu-Merge" target="_blank" rel="noopener noreferrer" class="btn btn-primary">GitHub</a>
+  </div>
+</article><article class="repo-card">
+  <div class="repo-card-header">
+    <h2 class="repo-title">
+<span class="rank-badge">#4</span>      <a href="https://github.com/sam70361/glass-ui-react" target="_blank" rel="noopener noreferrer">glass-ui-react</a>
+    </h2>
+    <span class="stars">⭐ 7</span>
+  </div>
+
+  <div class="meta-row">
+    <span class="language-dot">TypeScript</span>
+    <span>sam70361/glass-ui-react</span>
+  </div>
+
+  <div class="badge-row">
+    <span class="category-badge">AI / LLM</span>
+    <span class="category-badge">Web</span>
+    <span class="category-badge">Mobile</span>
+  </div>
+
+  <div class="badge-row">
+    <span class="topic-badge">admin-template</span>
+    <span class="topic-badge">dark-ui</span>
+    <span class="topic-badge">dashboard</span>
+    <span class="topic-badge">design-system</span>
+    <span class="topic-badge">glassmorphism</span>
+    <span class="topic-badge">react</span>
+  </div>
+
+  <p class="description">Dark glass-effect React admin dashboard template. 5 color themes · 40+ components · 30+ real-world scenarios · PWA ready.</p>
+
+  <div class="summary"><p>Dark glass-effect React admin dashboard template. 5 color themes · 40+ components · 30+ real-world scenarios · PWA ready.</p></div>
+
+  <div class="card-actions">
+    <a href="https://github.com/sam70361/glass-ui-react" target="_blank" rel="noopener noreferrer" class="btn btn-primary">GitHub</a>
+    <a href="https://glass-ui-react.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Homepage</a>
+  </div>
+</article><article class="repo-card">
+  <div class="repo-card-header">
+    <h2 class="repo-title">
+<span class="rank-badge">#5</span>      <a href="https://github.com/kelvinagyareyeboah/CryptoHub-Ghana" target="_blank" rel="noopener noreferrer">CryptoHub-Ghana</a>
+    </h2>
+    <span class="stars">⭐ 6</span>
+  </div>
+
+  <div class="meta-row">
+    <span class="language-dot">Solidity</span>
+    <span>kelvinagyareyeboah/CryptoHub-Ghana</span>
+  </div>
+
+
+
+  <p class="description">A decentralized cryptocurrency tracking dApp built to keep you updated on crypto prices in real-time, straight from Ghana! 🇬🇭</p>
+
+  <div class="summary"><p>A decentralized cryptocurrency tracking dApp built to keep you updated on crypto prices in real-time, straight from Ghana! 🇬🇭</p></div>
+
+  <div class="card-actions">
+    <a href="https://github.com/kelvinagyareyeboah/CryptoHub-Ghana" target="_blank" rel="noopener noreferrer" class="btn btn-primary">GitHub</a>
+  </div>
+</article>      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>由 <a href="https://github.com/eqwgeryfgbdf/daily-githubrank" target="_blank" rel="noopener noreferrer">Daily GitHub Rank</a> 自動產生</p>
+    </footer>
+  </div>
 </body>
 </html>
