@@ -1,0 +1,50 @@
+{# 共用 repo 卡片 #}
+<article class="repo-card">
+  <div class="repo-card-header">
+    <h2 class="repo-title">
+      {% if show_rank %}<span class="rank-badge">#{{ rank }}</span>{% endif %}
+      <a href="{{ repo.html_url }}" target="_blank" rel="noopener noreferrer">{{ repo.name }}</a>
+    </h2>
+    <span class="stars">⭐ {{ repo.stars }}</span>
+  </div>
+
+  <div class="meta-row">
+    {% if repo.language %}
+    <span class="language-dot">{{ repo.language }}</span>
+    {% endif %}
+    <span>{{ repo.full_name }}</span>
+  </div>
+
+  {% if repo.categories %}
+  <div class="badge-row">
+    {% for category in repo.categories %}
+    <span class="category-badge">{{ category }}</span>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if repo.topics %}
+  <div class="badge-row">
+    {% for topic in repo.topics[:6] %}
+    <span class="topic-badge">{{ topic }}</span>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if repo.description %}
+  <p class="description">{{ repo.description }}</p>
+  {% endif %}
+
+  {% if repo.intro_html %}
+  <div class="summary">{{ repo.intro_html | safe }}</div>
+  {% elif repo.intro_md %}
+  <div class="summary"><p>{{ repo.intro_md }}</p></div>
+  {% endif %}
+
+  <div class="card-actions">
+    <a href="{{ repo.html_url }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary">GitHub</a>
+    {% if repo.homepage %}
+    <a href="{{ repo.homepage }}" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Homepage</a>
+    {% endif %}
+  </div>
+</article>

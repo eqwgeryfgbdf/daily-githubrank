@@ -51,10 +51,10 @@ Thumbs.db
 # Logs
 *.log
 
-# Output files
+# Output files (local dry-run only)
 output/
-*.md
-!README.md
+.pages-deploy/
+node_modules/
 
 # Docker
 .dockerignore

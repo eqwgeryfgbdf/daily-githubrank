@@ -1,0 +1,12 @@
+{
+  "name": "daily-githubrank",
+  "private": true,
+  "scripts": {
+    "pages:prepare": "bash scripts/prepare-pages-deploy.sh",
+    "pages:deploy": "npm run pages:prepare && wrangler pages deploy .pages-deploy --project-name=${CLOUDFLARE_PAGES_PROJECT:-daily-githubrank}",
+    "pages:dev": "npm run pages:prepare && wrangler pages dev .pages-deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.24.0"
+  }
+}

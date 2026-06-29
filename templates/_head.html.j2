@@ -1,0 +1,10 @@
+{# 共用 HTML head 與 SEO meta #}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ page_title }}</title>
+<meta name="description" content="{{ page_description }}">
+<meta property="og:title" content="{{ page_title }}">
+<meta property="og:description" content="{{ page_description }}">
+<meta property="og:type" content="website">
+{% if og_url %}<meta property="og:url" content="{{ og_url }}">{% endif %}
+<link rel="stylesheet" href="{{ css_href }}">

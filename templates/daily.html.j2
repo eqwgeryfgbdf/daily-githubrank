@@ -7,27 +7,18 @@
   <div class="container">
     <header class="site-header">
       <section class="hero">
-        <h1>{{ site_name }}</h1>
-        <p class="subtitle">{{ site_description }}</p>
+        <h1>{{ article_title }}</h1>
+        <p class="subtitle">今日新創建 GitHub 熱門專案精選</p>
         <div class="date-badge">{{ date_str }} · {{ timezone }}</div>
         <nav class="nav-bar">
-          <a class="nav-link" href="{{ daily_href }}">今日完整文章</a>
+          <a class="nav-link" href="{{ home_href }}">回首頁</a>
           <a class="nav-link" href="{{ archive_href }}">歷史文章</a>
-          <a class="nav-link" href="https://github.com/{{ github_repo }}" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
         </nav>
       </section>
     </header>
 
-    {% if all_categories %}
-    <div class="category-strip" aria-label="今日分類">
-      {% for category in all_categories %}
-      <span class="category-badge">{{ category }}</span>
-      {% endfor %}
-    </div>
-    {% endif %}
-
     <main>
-      <h2 class="section-title">今日熱門 Top {{ repos | length }}</h2>
+      <p class="description">共收錄 {{ repos | length }} 個專案。</p>
 
       {% if repos %}
       <div class="repo-list">
@@ -39,13 +30,13 @@
       </div>
       {% else %}
       <div class="empty-state">
-        <p>今日尚未找到符合條件的熱門專案。</p>
-        <p>請稍後再來，或查看<a href="{{ archive_href }}">歷史文章</a>。</p>
+        <p>今日沒有符合條件的熱門專案。</p>
       </div>
       {% endif %}
     </main>
 
     <footer class="site-footer">
+      <p><a href="{{ home_href }}">回首頁</a> · <a href="{{ archive_href }}">歷史文章</a></p>
       <p>由 <a href="https://github.com/{{ github_repo }}" target="_blank" rel="noopener noreferrer">Daily GitHub Rank</a> 自動產生</p>
     </footer>
   </div>

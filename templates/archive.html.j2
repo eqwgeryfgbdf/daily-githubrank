@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  {% include "_head.html.j2" %}
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <section class="hero">
+        <h1>歷史文章</h1>
+        <p class="subtitle">瀏覽過去每日 GitHub 熱門精選</p>
+        <nav class="nav-bar">
+          <a class="nav-link" href="{{ home_href }}">回首頁</a>
+          <a class="nav-link" href="https://github.com/{{ github_repo }}" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+        </nav>
+      </section>
+    </header>
+
+    <main>
+      {% if grouped_entries %}
+        {% for year, months in grouped_entries %}
+        <section class="archive-group">
+          <h2 class="archive-year">{{ year }}</h2>
+          {% for month, entries in months %}
+          <h3 class="archive-month">{{ month }} 月</h3>
+          <ul class="archive-list">
+            {% for entry in entries %}
+            <li class="archive-item">
+              <a href="{{ entry.html_href }}">{{ entry.title }}</a>
+              <span class="archive-meta">{{ entry.repo_count }} 個專案 · {{ entry.date }}</span>
+            </li>
+            {% endfor %}
+          </ul>
+          {% endfor %}
+        </section>
+        {% endfor %}
+      {% else %}
+      <div class="empty-state">
+        <p>尚無歷史文章，請等待第一次每日排程執行。</p>
+      </div>
+      {% endif %}
+    </main>
+
+    <footer class="site-footer">
+      <p>由 <a href="https://github.com/{{ github_repo }}" target="_blank" rel="noopener noreferrer">Daily GitHub Rank</a> 自動產生</p>
+    </footer>
+  </div>
+</body>
+</html>

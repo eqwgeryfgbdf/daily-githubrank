@@ -40,14 +40,18 @@ def _build_prompt(repos: List[RepoInfo]) -> str:
     ]
     instruction = (
         "你是一位繁體中文技術編輯。請閱讀每個 GitHub 專案的描述與 README 內容，"
-        "為每個專案撰寫一段精簡的介紹（繁體中文）。\n"
+        "為每個專案撰寫繁體中文介紹。\n"
         "要求：\n"
-        "1. 字數嚴格控制在 150~250 字之間。\n"
-        "2. 內容包含：專案用途、核心功能、技術亮點。\n"
-        "3. 必須綜合 README 的內容進行總結，禁止直接翻譯或照抄長篇 README。\n"
-        "4. 使用 Markdown 格式。\n"
-        "5. JSON 中的 full_name 必須與輸入完全一致（包含 owner/repo）。\n"
-        "輸出 JSON，格式為 {\"summaries\":[{\"full_name\":string,\"intro_md\":string}...] }。"
+        "1. intro_md 使用固定 Markdown 結構：\n"
+        "   - **一句話說明**：...\n"
+        "   - **專案用途**：...\n"
+        "   - **適合使用對象**：...\n"
+        "   - **技術亮點**：...\n"
+        "   - **可能限制或注意事項**：...\n"
+        "2. 每段 1~3 句，整體約 150~250 字。\n"
+        "3. 必須綜合 README 內容總結，禁止直接翻譯或照抄長篇 README。\n"
+        "4. JSON 中的 full_name 必須與輸入完全一致（包含 owner/repo）。\n"
+        "5. 只輸出 JSON，格式為 {\"summaries\":[{\"full_name\":string,\"intro_md\":string}...] }。"
     )
     return instruction + "\n\nINPUT:\n" + json.dumps(repos_payload, ensure_ascii=False)
 

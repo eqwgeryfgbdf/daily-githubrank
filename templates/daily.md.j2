@@ -1,6 +1,6 @@
 # GitHub 每日熱門精選 - {{ date_str }} ({{ timezone }})
 
-> 本頁由自動流程產生，聚焦今日新創建且快速增長的專案。
+> 本頁由自動流程產生，聚焦最近 {{ trending_days }} 天新創建且快速增長的專案。
 
 共收錄 {{ repos | length }} 個項目。
 
@@ -8,10 +8,8 @@
 ## {{ loop.index }}. {{ r.name }} — ⭐ {{ r.stars }}
 
 - **連結**: [{{ r.full_name }}]({{ r.html_url }}){% if r.homepage %} ｜ **網站**: [Homepage]({{ r.homepage }}){% endif %}
-- **語言**: {{ r.language or '-' }}{% if r.topics and r.topics|length > 0 %} ｜ **主題**: {{ r.topics | join(', ') }}{% endif %}
+- **語言**: {{ r.language or '-' }}{% if r.categories %} ｜ **分類**: {{ r.categories | join(', ') }}{% endif %}{% if r.topics and r.topics|length > 0 %} ｜ **主題**: {{ r.topics | join(', ') }}{% endif %}
 
 {{ r.intro_md }}
 
 {% endfor %}
-
-

@@ -1,0 +1,14 @@
+/assets/*
+  Cache-Control: public, max-age=604800, immutable
+
+/data/*
+  Cache-Control: public, max-age=300
+  Access-Control-Allow-Origin: *
+
+/daily/*
+  Cache-Control: public, max-age=3600
+
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
