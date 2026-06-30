@@ -1,82 +1,88 @@
 {
-  "date": "2026-06-29",
-  "title": "GitHub 每日熱門精選 - 2026-06-29",
+  "date": "2026-06-30",
+  "title": "GitHub 每日熱門精選 - 2026-06-30",
   "repo_count": 5,
   "repos": [
     {
-      "name": "Easy-Class",
-      "full_name": "mego1123/Easy-Class",
-      "url": "https://github.com/mego1123/Easy-Class",
-      "description": null,
-      "stars": 8,
-      "language": "Go",
-      "topics": [],
-      "categories": [
-        "CLI"
+      "name": "Flash-USDT-Sender",
+      "full_name": "Kenia1989/Flash-USDT-Sender",
+      "url": "https://github.com/Kenia1989/Flash-USDT-Sender",
+      "description": "Flash USDT Sender — Multi-network flash transaction tool for USDT, BTC, and ETH with configurable duration, custom gas settings, ERC-20/TRC-20/BEP-20 support, and block explorer-visible confirmations",
+      "stars": 11,
+      "language": "Python",
+      "topics": [
+        "bitcoinflashtool",
+        "crypto-wallet-simulator",
+        "cryptojacking",
+        "electrum-fake-balance",
+        "electrum-wallet",
+        "eth-flasher",
+        "exodus-fake-balance",
+        "fake-balance-crypto",
+        "fake-balance-exodus",
+        "flash-free-demo",
+        "flasher-script",
+        "flasher-tool",
+        "flashingsoftware",
+        "okx-fake-balance",
+        "phantom-clone",
+        "phantom-fake-money",
+        "phantom-larp-tool",
+        "sol-flash-software-2025",
+        "trustwallet-clone",
+        "trx-flash"
       ],
-      "homepage": null,
-      "summary": ""
+      "categories": [],
+      "homepage": "",
+      "summary": "Flash USDT Sender — Multi-network flash transaction tool for USDT, BTC, and ETH with configurable duration, custom gas settings, ERC-20/TRC-20/BEP-20 support, and block explorer-visible confirmations"
     },
     {
-      "name": "pagewright",
-      "full_name": "KeepIntouch2024/pagewright",
-      "url": "https://github.com/KeepIntouch2024/pagewright",
-      "description": "LLM-orchestrated e-commerce detail-page generator · 电商详情页生成",
-      "stars": 7,
-      "language": "Python",
+      "name": "oixcloud-external-proxy-program",
+      "full_name": "pickrui/oixcloud-external-proxy-program",
+      "url": "https://github.com/pickrui/oixcloud-external-proxy-program",
+      "description": "oixcloud external-proxy helper — distribution (docs + binaries via Releases)",
+      "stars": 11,
+      "language": null,
       "topics": [],
       "categories": [],
       "homepage": null,
-      "summary": "LLM-orchestrated e-commerce detail-page generator · 电商详情页生成"
+      "summary": "oixcloud external-proxy helper — distribution (docs + binaries via Releases)"
     },
     {
-      "name": "DouyuLive-Danmu-Merge",
-      "full_name": "QiuranQAQ/DouyuLive-Danmu-Merge",
-      "url": "https://github.com/QiuranQAQ/DouyuLive-Danmu-Merge",
-      "description": "斗鱼弹幕合并",
-      "stars": 7,
+      "name": "labor-crm-gas",
+      "full_name": "nguyentrieu210/labor-crm-gas",
+      "url": "https://github.com/nguyentrieu210/labor-crm-gas",
+      "description": "Thành công — Hệ thống quản lý điều hành: Labor CRM tuyển dụng/cung ứng lao động FDI trên Google Apps Script + Google Sheets (phễu tuyển dụng, KPI tuần, công nợ, chăm sóc KH, RBAC 3 tầng)",
+      "stars": 8,
       "language": "JavaScript",
       "topics": [],
       "categories": [],
       "homepage": null,
-      "summary": "斗鱼弹幕合并"
+      "summary": "Thành công — Hệ thống quản lý điều hành: Labor CRM tuyển dụng/cung ứng lao động FDI trên Google Apps Script + Google Sheets (phễu tuyển dụng, KPI tuần, công nợ, chăm sóc KH, RBAC 3 tầng)"
     },
     {
-      "name": "glass-ui-react",
-      "full_name": "sam70361/glass-ui-react",
-      "url": "https://github.com/sam70361/glass-ui-react",
-      "description": "Dark glass-effect React admin dashboard template. 5 color themes · 40+ components · 30+ real-world scenarios · PWA ready.",
-      "stars": 7,
+      "name": "tokenicode-deepseek-alpha",
+      "full_name": "mistydew/tokenicode-deepseek-alpha",
+      "url": "https://github.com/mistydew/tokenicode-deepseek-alpha",
+      "description": "TOKENICODE DeepSeek Alpha: a DeepSeek/CC Switch focused TOKENICODE fork",
+      "stars": 8,
       "language": "TypeScript",
-      "topics": [
-        "admin-template",
-        "dark-ui",
-        "dashboard",
-        "design-system",
-        "glassmorphism",
-        "react",
-        "tailwindcss",
-        "vite"
-      ],
-      "categories": [
-        "AI / LLM",
-        "Web",
-        "Mobile"
-      ],
-      "homepage": "https://glass-ui-react.vercel.app",
-      "summary": "Dark glass-effect React admin dashboard template. 5 color themes · 40+ components · 30+ real-world scenarios · PWA ready."
-    },
-    {
-      "name": "CryptoHub-Ghana",
-      "full_name": "kelvinagyareyeboah/CryptoHub-Ghana",
-      "url": "https://github.com/kelvinagyareyeboah/CryptoHub-Ghana",
-      "description": "A decentralized cryptocurrency tracking dApp built to keep you updated on crypto prices in real-time, straight from Ghana! 🇬🇭",
-      "stars": 6,
-      "language": "Solidity",
       "topics": [],
       "categories": [],
       "homepage": null,
-      "summary": "A decentralized cryptocurrency tracking dApp built to keep you updated on crypto prices in real-time, straight from Ghana! 🇬🇭"
+      "summary": "TOKENICODE DeepSeek Alpha: a DeepSeek/CC Switch focused TOKENICODE fork"
+    },
+    {
+      "name": "humantime-js",
+      "full_name": "kelvinagyareyeboah/humantime-js",
+      "url": "https://github.com/kelvinagyareyeboah/humantime-js",
+      "description": "⚡ A super‑lightweight JavaScript library to turn timestamps into friendly, human‑readable phrases like “just now”, “5 mins ago”, or “yesterday”. humantime-js makes your apps feel more natural by showing time the way people actually speak.",
+      "stars": 5,
+      "language": "JavaScript",
+      "topics": [],
+      "categories": [],
+      "homepage": null,
+      "summary": "⚡ A super‑lightweight JavaScript library to turn timestamps into friendly, human‑readable phrases like “just now”, “5 mins ago”, or “yesterday”. humantime-js makes your apps feel more natural by showing time the way people actually speak."
     }
   ]
 }
