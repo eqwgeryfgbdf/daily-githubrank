@@ -1,0 +1,67 @@
+{
+  "date": "2026-07-01",
+  "title": "GitHub 每日熱門精選 - 2026-07-01",
+  "repo_count": 5,
+  "repos": [
+    {
+      "name": "System_Backup___Restore",
+      "full_name": "Zeeshan2899/System_Backup___Restore",
+      "url": "https://github.com/Zeeshan2899/System_Backup___Restore",
+      "description": "Create system images, backup files, and restore when needed. Protect your data from crashes and malware. Full system backup.",
+      "stars": 223,
+      "language": "Python",
+      "topics": [],
+      "categories": [],
+      "homepage": null,
+      "summary": "Create system images, backup files, and restore when needed. Protect your data from crashes and malware. Full system backup."
+    },
+    {
+      "name": "Twitter_Engagement_Tool",
+      "full_name": "zhujingqi/Twitter_Engagement_Tool",
+      "url": "https://github.com/zhujingqi/Twitter_Engagement_Tool",
+      "description": "Auto-tweet, follow/unfollow, and like/retweet scheduler. Schedule tweets, gain followers, like tweets, and reply to mentions. Grow your Twitter audience.",
+      "stars": 223,
+      "language": "Python",
+      "topics": [],
+      "categories": [],
+      "homepage": null,
+      "summary": "Auto-tweet, follow/unfollow, and like/retweet scheduler. Schedule tweets, gain followers, like tweets, and reply to mentions. Grow your Twitter audience."
+    },
+    {
+      "name": "Virtual_Machine_Manager",
+      "full_name": "SrSCK/Virtual_Machine_Manager",
+      "url": "https://github.com/SrSCK/Virtual_Machine_Manager",
+      "description": "Run and manage virtual machines with ease. Supports VMware, VirtualBox, and Hyper-V. Create, start, and stop VMs.",
+      "stars": 223,
+      "language": "Python",
+      "topics": [],
+      "categories": [],
+      "homepage": null,
+      "summary": "Run and manage virtual machines with ease. Supports VMware, VirtualBox, and Hyper-V. Create, start, and stop VMs."
+    },
+    {
+      "name": "System_Information_Viewer",
+      "full_name": "AnonymousDev1494/System_Information_Viewer",
+      "url": "https://github.com/AnonymousDev1494/System_Information_Viewer",
+      "description": "Show detailed hardware and software info. Show processor details, memory usage, graphics card info, and Windows version. Get full system specs.",
+      "stars": 223,
+      "language": "Python",
+      "topics": [],
+      "categories": [],
+      "homepage": null,
+      "summary": "Show detailed hardware and software info. Show processor details, memory usage, graphics card info, and Windows version. Get full system specs."
+    },
+    {
+      "name": "Spotify_Playlist_Booster",
+      "full_name": "StephanoEscobarLoayza/Spotify_Playlist_Booster",
+      "url": "https://github.com/StephanoEscobarLoayza/Spotify_Playlist_Booster",
+      "description": "Increase followers, playlist streams, and auto-like songs. Play songs on loop, get fake followers, like all songs, and create playlists automatically. Grow your Spotify presence.",
+      "stars": 223,
+      "language": "Python",
+      "topics": [],
+      "categories": [],
+      "homepage": null,
+      "summary": "Increase followers, playlist streams, and auto-like songs. Play songs on loop, get fake followers, like all songs, and create playlists automatically. Grow your Spotify presence."
+    }
+  ]
+}
